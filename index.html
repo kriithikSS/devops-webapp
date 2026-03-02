@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DevOps Web Application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #1f4037, #99f2c8);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        .container {
+            padding: 50px 20px;
+        }
+
+        .card {
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 30px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 12px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #ffffff;
+            color: #1f4037;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #f1f1f1;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.3);
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🚀 DevOps Automation Web App</h1>
+        <p>CI/CD | ChatOps | Automated Deployment</p>
+    </header>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>Project Overview</h2>
+            <p>
+                This project demonstrates an End-to-End DevOps pipeline using:
+            </p>
+            <ul style="list-style: none; padding: 0;">
+                <li>✅ GitHub Version Control</li>
+                <li>✅ GitHub Actions CI/CD</li>
+                <li>✅ Slack ChatOps Integration</li>
+                <li>✅ Netlify Auto Deployment</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Pipeline Status</h2>
+            <p>Every push to the main branch automatically triggers:</p>
+            <p><strong>Build → Test → Notify → Deploy</strong></p>
+            <button onclick="showMessage()">Check Deployment</button>
+        </div>
+
+    </div>
+
+    <footer>
+        Developed for DevOps Virtual Lab Experiment | © 2026
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("✅ CI/CD Pipeline Working Successfully!");
+        }
+    </script>
+
+</body>
+</html>
